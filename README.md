@@ -13,33 +13,33 @@ That will turn a list in a slider where each page has 5 items.
 Example
 =======
 
-<div class="my-slider">
-	<ul>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-		<li><img src=[...] /></li>
-	</ul>
-</div>
+&lquo;div class="my-slider"&rquo;
+	&lquo;ul&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+		&lquo;li&rquo;&lquo;img src=[...] /&rquo;&lquo;/li&rquo;
+	&lquo;/ul&rquo;
+&lquo;/div&rquo;
 
-<div class="my-slider-footer">
-	<a class="my-slider-previous" href="previous"></a>
+&lquo;div class="my-slider-footer"&rquo;
+	&lquo;a class="my-slider-previous" href="previous"&rquo;&lquo;/a&rquo;
 
-	Displaying <span class="from">1</span> - <span class="to">...</span> of <span class="count">...</span>
+	Displaying &lquo;span class="from"&rquo;1&lquo;/span&rquo; - &lquo;span class="to"&rquo;...&lquo;/span&rquo; of &lquo;span class="count"&rquo;...&lquo;/span&rquo;
 
-	<a class="my-slider-next" href="next"></a>
-</div>
+	&lquo;a class="my-slider-next" href="next"&rquo;&lquo;/a&rquo;
+&lquo;/div&rquo;
 
-<script>
+&lquo;script&rquo;
 $(".my-slider").appSlider();
-</script>
+&lquo;/script&rquo;
