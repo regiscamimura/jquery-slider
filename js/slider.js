@@ -156,11 +156,11 @@ var APP = (function(app, $) {
 	Slider.prototype.move_to = function(item_id, options)
 	{
 		var that = this;
-		var video_index = that.$wrapper.find('.my-slider-group:has(li[data-video_id="'+item_id+'"])').index();
+		var item_index = that.$wrapper.find('.my-slider-group:has(li[data-item_id="'+item_id+'"])').index();
 		
-		if (video_index == -1) return false;
+		if (item_index == -1) return false;
 		
-		var move_to = Math.ceil((video_index+1)*5/that.settings.pagesize);
+		var move_to = Math.ceil((item_index+1)*5/that.settings.pagesize);
 		if (that.current == move_to) return false;
 		if (that.current > move_to) direction = 'previous';
 		else direction = 'next';
